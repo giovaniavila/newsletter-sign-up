@@ -1,0 +1,39 @@
+.formulario {
+  font-size: 17px;
+  margin: 0px;
+  display: grid;
+  position: absolute;
+  top: 50px;
+  place-content: start center;
+  width: 510px;
+  gap: 24px;
+  font-family: var(--fonteRoboto);
+}
+.formulario p {
+  font-size: 18px;
+}
+
+.listaBeneficios {
+  margin-bottom: 10px;
+  font-family: var(--fonteRoboto);
+  font-weight: normal;
+  padding-left: 10px;
+}
+.listaBeneficios img {
+  align-self: center;
+}
+.listaBeneficios li {
+  align-self: center;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 60px;
+  padding-top: 40px;
+  font-family: var(--fonteRoboto);
+  font-weight: bold;
+  color: var(--azul_escuro);
+}
+
+/*# sourceMappingURL=form.css.map */

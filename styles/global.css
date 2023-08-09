@@ -1,0 +1,46 @@
+@import url(style.css);
+@import url(form.css);
+@import url(subscribe.css);
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    background-color: var(--azul_escuro);
+    display: grid;
+    place-content: center;
+}
+
+h1,p,ul,li{
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: url(../images/icon-list.svg);
+    padding-left: 30px;
+}
+
+:root{
+    --fonteRoboto: 'Roboto', sans-serif;
+    --azul_escuro: #2C2F4A;
+    --azul_mais_escuro: #1A1C34;
+}
+
+.imagem{
+    grid-column: 2;
+}
+
+.grid{
+    display: grid;
+    height: 670px;
+    grid-template-columns: repeat(2, 483px);
+    place-content: center;    
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
